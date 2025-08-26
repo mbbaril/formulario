@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro Newsletter Cultural</title>
+  <link rel="stylesheet" href="style.css"> <!-- Referência ao CSS externo -->
+</head>
+<body>
+  <div class="login-container">
+    <h2></h2>
+    <form>
+      <div class="input-group">
+        <input type="text" placeholder="Nome completo" required>
+      </div>
+      <div class="input-group">
+        <input type="email" placeholder="E-mail" required>
+      </div>
+      <div class="input-group">
+        <input type="number" placeholder="Idade" min="0" max="120">
+      </div>
+      <div class="input-group">
+        <input type="text" placeholder="Cidade">
+      </div>
+      <div class="input-group">
+        <select>
+          <option value="">Gênero</option>
+          <option value="feminino">Feminino</option>
+          <option value="masculino">Masculino</option>
+          <option value="nao-binario">Não-binário</option>
+          <option value="outro">Outro</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <select>
+          <option value="">Estilo artístico favorito</option>
+          <option value="musica">Música</option>
+          <option value="cinema">Cinema</option>
+          <option value="teatro">Teatro</option>
+          <option value="artes-visuais">Artes Visuais</option>
+          <option value="literatura">Literatura</option>
+        </select>
+      </div>
+      <label>Interesses culturais</label>
+      <div class="input-group">
+        <label><input type="checkbox" value="eventos"> Eventos</label>
+        <label><input type="checkbox" value="oficinas"> Oficinas</label>
+        <label><input type="checkbox" value="exposicoes"> Exposições</label>
+        <label><input type="checkbox" value="shows"> Shows</label>
+      </div>
+      <label>Frequência de consumo de arte</label>
+      <div class="input-group">
+        <label><input type="radio" name="frequencia" value="diariamente"> Diariamente</label>
+        <label><input type="radio" name="frequencia" value="semanalmente"> Semanalmente</label>
+        <label><input type="radio" name="frequencia" value="mensalmente"> Mensalmente</label>
+        <label><input type="radio" name="frequencia" value="raramente"> Raramente</label>
+      </div>
+      <div class="input-group">
+        <textarea rows="4" placeholder="Comentário ou sugestão cultural"></textarea>
+      </div>
+      
+      <button type="submit">Cadastrar</button>
+    </form>
+    <a href="index.html" class="voltar-btn">Voltar</a>
+  </div>
+</body>
+</html>

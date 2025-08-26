@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b2b2b; /* fundo escuro */
+  color: #f8f8f2; /* texto claro */
+}
+
+/* Container do login */
+.login-container {
+  background: #3c3f41; /* tom escuro para o container */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  min-width: 400px;
+  width: 35%;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+/* Título */
+h2 {
+  margin-bottom: 20px;
+  color: #a9b7c6;
+}
+
+/* Inputs */
+.input-group {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  background-color: #4e5254;
+  border: 1px solid #6c6f73;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #f8f8f2;
+}
+
+/* Botão */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6897bb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4c83a1;
+}
+
+button:active {
+  background-color: #3b6b85;
+}
+
+/* Link */
+p {
+  margin-top: 10px;
+}
+
+p a {
+  text-decoration: none;
+  color: #cc7832;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo específico */
+div p .inicio {
+  color: #ff6b68;
+}
+
+.verde {
+  margin-top: 20px;
+  color: #a5c261;
+}
+
+.roxo {
+  color: #9876aa;
+}
+
+.voltar-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #555555;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.voltar-btn:hover {
+  background-color: #666666;
+}
+
+textarea {
+  width: 100%;         /* ou defina uma largura fixa, ex: 300px */
+  height: 100px;        /* altura fixa */
+  resize: none;         /* impede redimensionamento manual */
+  padding: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
